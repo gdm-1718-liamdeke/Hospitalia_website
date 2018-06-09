@@ -1,0 +1,22 @@
+body {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.menu {
+    background-color: darkred;
+}
+
+.column_1 {
+    width: 260px;
+    margin: 0 10px 0 10px;
+    float: left;
+    position: relative;
+}
+
+.column_2 {
+    width: 940px;
+    margin: 0 10px 0 10px;
+    float: left;
+    position: relative;
+}
