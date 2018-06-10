@@ -14,3 +14,16 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/huidig_praesidium', function () {
+
+    $users = DB::table('users')->get();
+
+
+    return view('huidig_praesidium', compact('users'));
+});
